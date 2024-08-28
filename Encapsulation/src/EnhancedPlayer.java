@@ -31,6 +31,7 @@ public class EnhancedPlayer {
         return healthPercentage;
     }
 
+
     public void restoreHealth(int extraHealth) {
         healthPercentage += extraHealth;
         if (healthPercentage > 100) {
