@@ -9,7 +9,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         Map<String, Integer> tempExit = new HashMap<String, Integer>();
-        locations.put(0, new Location(0, "You are sitting in front of a computer",tempExit));
+        locations.put(0, new Location(0, "You are sitting in front of a computer",null));
 
         tempExit = new HashMap<String, Integer>();
         tempExit.put("W", 2);
